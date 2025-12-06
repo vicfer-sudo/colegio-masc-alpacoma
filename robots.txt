@@ -1,0 +1,12 @@
+﻿User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Directorios importantes
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /videos/
+
+Sitemap: https://colegio-masc-alpacoma.vercel.app/sitemap.xml

@@ -1,0 +1,421 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Mariscal Andrés de Santa Cruz - Alpacoma</title>    <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+
+    <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+     <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+     <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+     <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+     <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+
+    <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+     <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+     <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+     <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+     <meta name="google-site-verification" content="nnNnzCUCTc1MtCEqxXlNmG7qc7QkYG54Jx5uG6Q8jAs" />
+<!-- Fuentes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Nuestro CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏫</text></svg>">
+</head>
+<script>
+// Prueba inmediata del botón Facebook
+document.addEventListener('DOMContentLoaded', function() {
+    const fbBtn = document.getElementById('facebookLink');
+    
+    if (fbBtn) {
+        // Configurar enlace de prueba
+        fbBtn.href = 'https://www.facebook.com/share/1BgmG9ZoPu/';
+        fbBtn.target = '_blank';
+        
+        // Cambiar texto para confirmar
+        const fbText = fbBtn.querySelector('span');
+        if (fbText) {
+            fbText.textContent = 'Facebook';
+        }
+        
+        console.log('🎯 Botón Facebook listo para probar');
+        console.log('Haz clic en el botón Facebook para abrir facebook.com');
+        
+        // Mostrar alerta al hacer clic
+        fbBtn.addEventListener('click', function(e) {
+            console.log('✅ Facebook clickeado - Redirigiendo...');
+            // Permitir la navegación normal
+        });
+    }
+});
+</script>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="logo">
+                <div class="logo">
+                <img src="images/logo-colegio.png" alt="Logo Colegio Mariscal Andrés de Santa Cruz" class="logo-img">
+                <div class="logo-text">
+                <h1>U.E. MARISCAL ANDRES DE<br>SANTA CRUZ DE ALPACOMA</h1>
+                <span>Formando líderes desde 1989</span>
+            </div>
+        </div>
+            
+            <div class="nav-right">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#academico" class="nav-link">Académico</a></li>
+                    <li><a href="#instalaciones" class="nav-link">Instalaciones</a></li>
+                    <li><a href="#noticias" class="nav-link">Noticias</a></li>
+                    <li><a href="#galeria" class="nav-link">Galería</a></li>
+                    <li><a href="#video" class="nav-link">Video</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="inicio">
+        <div class="hero-background"></div>
+        <div class="particles-container" id="particles"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    <span>Excelencia Educativa <span id="currentYear">2025</span></span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line">Formando los líderes</span>
+                    <span class="title-line">del <span class="title-line accent">mañana</span></span>
+                </h1>
+                
+                <p class="hero-description">
+                    Educación de calidad con valores, tecnología y compromiso social. 
+                    Preparando a nuestros estudiantes para los desafíos del siglo XXI.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="34">0</span>
+                        <span>Años de Experiencia</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="281">0</span>
+                        <span>Estudiantes</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="3">0</span>
+                        <span>Niveles Educativos</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary btn-glow">
+                        <i class="fas fa-calendar-alt"></i>
+                        Matrículas <span id="currentYearShort">2026</span>
+                    </a>
+                    <a href="#galeria" class="btn btn-secondary">
+                        <i class="fas fa-images"></i>
+                        Ver Galería
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ===== ACADÉMICO ===== -->
+    <section class="section academic-section" id="academico">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Propuesta Académica</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Programas educativos innovadores adaptados a las necesidades actuales</p>
+            </div>
+            
+            <div class="academic-grid">
+                <div class="academic-card">
+                    <div class="academic-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Nivel Inicial</h3>
+                    <p>Desarrollo integral de niños de 4 a 5 años con metodologías lúdicas y estimulación temprana.</p>
+                </div>
+                
+                <div class="academic-card">
+                    <div class="academic-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Educación Primaria</h3>
+                    <p>Formación básica con énfasis en valores, lectura crítica y pensamiento matemático.</p>
+                </div>
+                
+                <div class="academic-card">
+                    <div class="academic-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Educación Secundaria</h3>
+                    <p>Preparación preuniversitaria con orientación técnica y desarrollo de habilidades para la vida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== INSTALACIONES ===== -->
+    <section class="section instalaciones-section" id="instalaciones">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestras Instalaciones</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Infraestructura moderna y segura para un aprendizaje óptimo</p>
+            </div>
+            
+            <div class="instalacion-simple">
+                <div class="instalacion-foto">
+                    <img src="images/instalaciones/colegio.jpg" alt="Instalaciones del colegio" class="foto-instalacion" 
+                         onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                </div>
+                <div class="instalacion-descripcion">
+                    <p>Contamos con aulas equipadas con tecnología de punta, laboratorios de ciencias e informática, 
+                    biblioteca actualizada, canchas deportivas múltiples y áreas verdes para el esparcimiento 
+                    y desarrollo integral de nuestros estudiantes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NOTICIAS ===== -->
+<section class="section" id="noticias">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Últimas Noticias</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Mantente informado sobre las actividades y logros de nuestra institución</p>
+        </div>
+        
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="images/noticias/noticia1.jpg" alt="Olimpiada científica" 
+                         onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                </div>
+                <div class="news-content">
+                    <span class="news-date">4 de noviembre de 2025</span>
+                    <h3>Defensa de Robótica 2025</h3>
+                    <p>Nuestros estudiantes defendieron su proyecto en la primera feria de "Robótica e Inteligencia Artificial 2025" con su detector de fugas de gas.</p>
+                </div>
+            </div>
+            
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="images/noticias/noticia2.jpg" alt="Educación Física" 
+                         onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                </div>
+                <div class="news-content">
+                    <span class="news-date">21 de noviembre de 2025</span>
+                    <h3>Presentación de Educación Física</h3>
+                    <p>Un año de logros académicos, deportivos y culturales que refuerzan nuestro compromiso con una educación integral de calidad.</p>
+                </div>
+            </div>
+            
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="images/noticias/noticia3.jpg" alt="Actividad cultural" 
+                         onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                </div>
+                <div class="news-content">
+                    <span class="news-date">4 de diciembre de 2025</span>
+                    <h3>Graduación de Inicial a Primaria</h3>
+                    <p>Nuestros pequeños del nivel inicial culminan exitosamente su primera etapa educativa y se preparan para ingresar a primaria con una emotiva ceremonia de graduación.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ===== GALERÍA MEJORADA ===== -->
+    <section class="section gallery-section" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galería Multimedia</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Momentos especiales que marcan nuestra trayectoria educativa</p>
+            </div>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="todos">Todas</button>
+                <button class="filter-btn" data-filter="eventos">Eventos</button>
+                <button class="filter-btn" data-filter="deportes">Deportes</button>
+                <button class="filter-btn" data-filter="academico">Académico</button>
+                <button class="filter-btn" data-filter="cultural">Cultural</button>
+            </div>
+            
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Las imágenes se cargarán dinámicamente -->
+                <div class="gallery-loader">
+                    <p>Cargando galería...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== VIDEO PROMOCIONAL ===== -->
+    <section class="section" id="video">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Conoce Nuestro Colegio</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Un vistazo a la experiencia educativa que ofrecemos</p>
+            </div>
+            
+            <div class="video-container">
+                <video class="presentation-video" controls poster="images/video/thumbnail.jpg">
+                  <source src="./videos/presentacion.MP4" type="video/mp4">
+<!-- O -->
+<source src="file:///C:/Users/Crow%20Father/proyectos/pagina-2/videos/presentacion.MP4" type="video/mp4">
+                <div class="video-overlay">
+                    <button class="video-play-btn" id="videoPlayBtn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section class="section contact-section" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contáctanos</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Estamos aquí para responder tus preguntas</p>
+            </div>
+            
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h3>Dirección</h3>
+                        <p>Zona Tejada Alpacoma,<br>El Alto, Bolivia</p>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <h3>Teléfonos</h3>
+                        <p>(591) 77293933</p>
+                        <p>(591) 78837526</p>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <p style="word-break: break-word;">Andresdesantacruz<br class="mobile-break">alpacoma@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Redes Sociales -->
+            <div class="social-section">
+                <h3>Síguenos en redes sociales</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" id="facebookLink" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-link" id="youtubeLink" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="#" class="social-link" id="instagramLink" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+                <p class="social-note">!!Visítanos!!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+    <div class="footer-logo">
+        <img src="images/logo-colegio.png" alt="Logo Colegio Mariscal Andrés de Santa Cruz" class="footer-logo-img">
+        <div class="footer-logo-text">
+            <h3>U.E. Mariscal Andrés de Santa Cruz</h3>
+            <p>Alpacoma - La Paz, Bolivia</p>
+        </div>
+    </div>
+    <p class="footer-description">
+        Institución educativa comprometida con la excelencia académica, 
+        valores humanos y desarrollo integral de nuestros estudiantes.
+    </p>
+</div>
+                
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio"><i class="fas fa-chevron-right"></i> Inicio</a></li>
+                        <li><a href="#academico"><i class="fas fa-chevron-right"></i> Académico</a></li>
+                        <li><a href="#galeria"><i class="fas fa-chevron-right"></i> Galería</a></li>
+                        <li><a href="#contacto"><i class="fas fa-chevron-right"></i> Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="footerYear">2025</span> Colegio Mariscal Andrés de Santa Cruz - Alpacoma. Todos los derechos reservados.
+   <br><small>Desarrollado por el Área de Computación</small>
+</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    
+    <!-- Nuestro JS -->
+    <script src="js/main.js"></script>
+    
+    <!-- Script para galería dinámica -->
+    <script src="js/gallery.js"></script>
+</body>
+</html>
+
