@@ -109,25 +109,36 @@ function initGallery() {
     }
     
     // Función para filtrar imágenes
-    function filterGallery(category) {
-        let filteredImages;
-        
-        if (category === 'todos') {
-            filteredImages = allImages;
-        } else {
-            filteredImages = allImages.filter(img => img.category === category);
-        }
-        
-        // Animación de transición
-        galleryGrid.style.opacity = '0.5';
-        galleryGrid.style.transition = 'opacity 0.3s ease';
-        
-        setTimeout(() => {
-            renderGallery(filteredImages);
-            galleryGrid.style.opacity = '1';
-        }, 300);
+    // Función para filtrar imágenes
+function filterGallery(category) {
+    let filteredImages;
+    
+    if (category === 'todas' || category === 'todos') {
+        // MOSTRAR SOLO 8 IMÁGENES ALEATORIAS de todas las categorías
+        filteredImages = getRandomImages(allImages, 8);
+        console.log('✅ Mostrando 8 imágenes aleatorias de todas las categorías');
+    } else {
+        filteredImages = allImages.filter(img => img.category === category);
+        console.log(`✅ Mostrando ${category}:`, filteredImages.length, 'imágenes');
     }
     
+    // Animación de transición
+    galleryGrid.style.opacity = '0.5';
+    galleryGrid.style.transition = 'opacity 0.3s ease';
+    
+    setTimeout(() => {
+        renderGallery(filteredImages);
+        galleryGrid.style.opacity = '1';
+    }, 300);
+}
+// Función para obtener imágenes aleatorias
+function getRandomImages(imagesArray, count) {
+    // Mezclar el array
+    const shuffled = [...imagesArray].sort(() => 0.5 - Math.random());
+    
+    // Tomar las primeras 'count' imágenes
+    return shuffled.slice(0, count);
+}
     // Configurar botones de filtro
     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -144,7 +155,7 @@ function initGallery() {
     });
     
     // Renderizar todas las imágenes al inicio
-    renderGallery(allImages);
+    renderGallery(getRandomImages(allImages, 8));
     
     console.log(`✅ Galería cargada con ${allImages.length} imágenes`);
 }

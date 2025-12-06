@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
                          onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
                 </div>
                 <div class="news-content">
-                    <span class="news-date">4 de diciembre de 2025</span>
+                    <span class="news-date">3 de diciembre de 2025</span>
                     <h3>Graduación de Inicial a Primaria</h3>
                     <p>Nuestros pequeños del nivel inicial culminan exitosamente su primera etapa educativa y se preparan para ingresar a primaria con una emotiva ceremonia de graduación.</p>
                 </div>
@@ -248,29 +248,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <!-- ===== GALERÍA MEJORADA ===== -->
     <section class="section gallery-section" id="galeria">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Galería Multimedia</h2>
-                <div class="section-divider"></div>
-                <p class="section-subtitle">Momentos especiales que marcan nuestra trayectoria educativa</p>
-            </div>
-            
-            <div class="gallery-filters">
-                <button class="filter-btn active" data-filter="todos">Todas</button>
-                <button class="filter-btn" data-filter="eventos">Eventos</button>
-                <button class="filter-btn" data-filter="deportes">Deportes</button>
-                <button class="filter-btn" data-filter="academico">Académico</button>
-                <button class="filter-btn" data-filter="cultural">Cultural</button>
-            </div>
-            
-            <div class="gallery-grid" id="galleryGrid">
-                <!-- Las imágenes se cargarán dinámicamente -->
-                <div class="gallery-loader">
-                    <p>Cargando galería...</p>
-                </div>
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Galería Multimedia</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Momentos especiales que marcan nuestra trayectoria educativa</p>
+        </div>
+        
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="todas">Todas</button>  <!-- ¡CORREGIDO! -->
+            <button class="filter-btn" data-filter="eventos">Eventos</button>
+            <button class="filter-btn" data-filter="deportes">Deportes</button>
+            <button class="filter-btn" data-filter="academico">Académico</button>
+            <button class="filter-btn" data-filter="cultural">Cultural</button>
+        </div>
+        
+        <div class="gallery-grid" id="galleryGrid">
+            <!-- Las imágenes se cargarán dinámicamente -->
+            <div class="gallery-loader">
+                <p>Cargando galería...</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- ===== VIDEO PROMOCIONAL ===== -->
     <section class="section" id="video">
