@@ -1,12 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿$xmlContent = '<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <!-- SOLO ESTA URL (la principal) -->
   <url>
     <loc>https://colegio-masc-alpacoma.vercel.app/</loc>
-    <lastmod>2025-12-06</lastmod>
+    <lastmod>2024-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
-</urlset>
+</urlset>'
