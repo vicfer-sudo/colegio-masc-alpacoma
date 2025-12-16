@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>Colegio Alpacoma - Actualizaciones</title>
+    <link>https://colegio-masc-alpacoma.vercel.app</link>
+    <description>Últimas actualizaciones del sitio web</description>
+    <lastBuildDate>Tue, 16 Dec 2025 18:47:37 GMT</lastBuildDate>
+    <item>
+        <title>Sitio actualizado</title>
+        <link>https://colegio-masc-alpacoma.vercel.app/actualizacion-20251216.html</link>
+        <description>El contenido ha sido actualizado y corregido</description>
+        <pubDate>Tue, 16 Dec 2025 18:47:37 GMT</pubDate>
+    </item>
+</channel>
+</rss>
